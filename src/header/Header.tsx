@@ -9,7 +9,6 @@ export const Header = () => {
 	return (
 		<StyledHeader>
 			<img src={logo} alt="" />
-			<Logo href='https://web.telegram.org/a/#1140893833' iconId='timeIcon'/>
 			<Naviation>
 				<ul>
 					<li>
