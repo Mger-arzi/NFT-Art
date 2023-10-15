@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import { Logo } from '../logo/Logo';
 import { Icon } from '../icon/Icon';
+import logo from "../image/Logo.svg"
+import { Button } from '../button/Button';
 
 export const Header = () => {
 	return (
 		<StyledHeader>
-			
+			<img src={logo} alt="" />
 			<Logo href='https://web.telegram.org/a/#1140893833' iconId='timeIcon'/>
 			<Naviation>
 				<ul>
@@ -24,7 +26,7 @@ export const Header = () => {
 					</li>
 				</ul>
 			</Naviation>
-			<Logo iconId='Logo'/>
+			<Button propsBTN='pripory'>Contact</Button>
 		</StyledHeader>
 	);
 };

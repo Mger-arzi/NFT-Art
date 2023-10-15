@@ -11,7 +11,7 @@ type LogoTypeProps = {
 export const Logo = (props: LogoTypeProps) => {
 	return (
 		<a href={props.href}>
-			<Icon iconId={props.iconId}/>
+			<Icon height='20px'width='20px' iconId={props.iconId}/>
 		</a>
 	);
 };
