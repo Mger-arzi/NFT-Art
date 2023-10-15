@@ -1,10 +1,18 @@
 import React from 'react';
+import {Icon} from "../icon/Icon"
+import iconsSprite from '../image/sprite.svg'
 
-export const Logo = () => {
+
+type LogoTypeProps = {
+	iconId: string
+	href?: string
+}
+
+export const Logo = (props: LogoTypeProps) => {
 	return (
-		<div>
-			
-		</div>
+		<a href={props.href}>
+			<Icon iconId={props.iconId}/>
+		</a>
 	);
 };
 
