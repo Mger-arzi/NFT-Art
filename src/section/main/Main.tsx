@@ -8,7 +8,7 @@ export const MainSection = () => {
 	return (
 		<Main>
 			<FlexWrapper flexDirection="column" align='center'>
-				<TitleSection fontSeze='64px' LineHeight='76.8' >Discover and Collect The Best NFTs Digital Art.</TitleSection>
+				<TitleSection fontSeze='64px'  >Discover and Collect The Best NFTs <span>Digital Art.</span></TitleSection>
 				<Text>Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Text>
 				<Button propsBTN='pripory'>Explore Now</Button>
 				<Button propsBTN='outline' border='none'>Learn More</Button>
